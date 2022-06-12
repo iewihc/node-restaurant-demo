@@ -5,6 +5,7 @@ import {Restaurant} from "../models/restaurant.interface";
 export const restaurantRouter = express.Router();
 
 // GET restaurants
+
 restaurantRouter.get("/", async (req: Request, res: Response) => {
     try {
         const restaurants: Restaurant[] = await RestaurantService.findAll();

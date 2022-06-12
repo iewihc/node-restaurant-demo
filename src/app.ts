@@ -1,4 +1,3 @@
-import {itemsRouter} from "./routers/item.router";
 import {restaurantRouter} from "./routers/restaurant.router";
 import express from "express";
 import cors from "cors";
